@@ -1,8 +1,35 @@
 
 
-
-<!DOCTYPE html>
-<html lang="en">
-
-    <p> ANDY LIKES OLD MEN </p>
+ <!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+background-color: red;
+transition: background-color 0.5s;
+}
+img {
+position: absolute;
+top: 0; bottom: 0; left: 0; right: 0;
+margin: auto;
+}
+</style>
+<img src=" https://i.imgflip.com/1s81q0.jpg " style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto;">
+<audio autoplay loop>
+<source src=" http://s0.vocaroo.com/media/download_temp/Vocaroo_s0SOKn7Y1Jie.mp3 ">
+</audio>
+</head>
+<body>
+<script type="text/javascript">
+var colours = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+var i = 1;
+window.setInterval(function() {
+document.body.style.backgroundColor = colours[i];
+i++;
+if(i === colours.length) {
+i = 0;
+}
+}, 300);
+</script>
+</body>
 </html>
